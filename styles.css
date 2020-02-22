@@ -1,0 +1,155 @@
+/*
+ * Want to change this website's styes? Learn more about CSS:
+ * https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS
+ */
+
+body {
+  font-family: 'Source Code Pro', monospace;
+  margin: 2em;
+  line-height: 1.6;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+li {
+  margin: 8px 0px;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: cornflowerblue;
+}
+
+
+.pagelink {
+  color: olive;
+}
+
+.entry {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 0.25fr 1fr 0.5fr;
+  padding-top: 10px;
+}
+
+.entry > div {
+  white-space: nowrap;
+}
+
+.entry-date {
+  padding-left: 2em;
+  text-align: right;
+}
+
+#blog {
+  max-width: 42%;
+  padding-top: 25px;
+  padding-bottom:25px;
+  margin: auto;
+}
+.emoji-tag {
+  padding-right: 2em;
+}
+
+#footer-section {
+  font-size:smaller;
+  max-width: 58%;
+  margin: auto;
+  padding:100px 0px;
+}
+
+#bio{
+  white-space:nowrap;
+  padding-right: 2em;
+  font-size: smaller;
+  flex: 1.5;
+  min-width:25%;
+}
+
+#bio p{
+  margin: 0;
+}
+
+.heading-section {
+  display: flex;
+  max-width: 58%;
+  margin: auto;
+  padding: 50px 0px;
+}
+
+.heading-section h1 {
+  text-align:center;
+}
+
+.heading-section img {
+  max-width: 62%;
+  padding: 1em;
+  padding-left: 0;
+}
+
+.heading {
+  flex: auto;
+}
+
+.heading p{
+  font-family: 'Quattrocento', serif;
+}
+
+.heading h1{
+  margin-top: 0px;
+}
+
+.body-section {
+  max-width:58%;
+  margin:auto;
+  padding-top: 75px;
+}
+
+.entry-image{
+  max-width: 100%;
+  text-align:center;
+}
+
+.entry-info-container{
+  text-align:center;
+}
+
+.entry-info {
+  margin: 100px auto;
+  max-width: 58%;
+}
+
+#entry-info {
+  padding: 50px 0px;
+}
+
+#back-button{
+  font-size:xx-large;
+}
+
+.emoji-key{
+  text-align:center;
+  max-width:58%;
+  margin: auto;
+  font-family: 'Quattrocento',serif;
+  padding: 25px 0px;
+}
+
+.friendly {
+  font-family: 'Quattrocento', Helvetica, san-serif;
+  font-size:larger;
+}
+
+.smaller {
+  font-size:smaller;
+}
+
+.tech-info{
+  padding-top:50px;
+}
