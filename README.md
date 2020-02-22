@@ -1,2 +1,2 @@
 # ilookedeverywhere
-My Pesronal ilookedeverywhere Website
+I'm an artist in Los Angeles! This is my website.
