@@ -26,6 +26,10 @@ a {
   color: cornflowerblue;
 }
 
+img{
+  max-width:100%;
+}
+
 
 .pagelink {
   color: olive;
@@ -116,6 +120,11 @@ a {
   text-align:center;
 }
 
+.entry-image-small{
+  max-width: 50%;
+  margin:auto;
+}
+
 .entry-info-container{
   text-align:center;
 }
@@ -144,6 +153,13 @@ a {
 .friendly {
   font-family: 'Quattrocento', Helvetica, san-serif;
   font-size:larger;
+}
+
+.writing{
+  font-family: 'Cambria';
+  font-size:larger;
+  max-width:75%;
+  margin:auto;
 }
 
 .smaller {
